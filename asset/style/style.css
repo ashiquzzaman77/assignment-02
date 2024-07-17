@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
 
 .font-style {
     font-family: "Inter", sans-serif;
+}
+
+.font-style-two {
+    font-family: "Homemade Apple", cursive;
 }
 
 * {
@@ -17,7 +22,7 @@ body {
 
 /* Navber Section  */
 #header-section {
-    margin: 50px 130px 0 130px;
+    margin: 50px 250px 0 250px;
 }
 
 .logo {
@@ -57,3 +62,63 @@ body {
     padding: 8px 20px;
     margin-left: 5px;
 }
+
+/* Banner Start  */
+#banner-section {
+    margin: 50px 250px 0 250px;
+}
+
+.banner-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-content h2 {
+    font-size: 70px;
+    max-width: 450px;
+    font-weight: 800;
+}
+
+.banner-content p {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+    margin: 25px 0;
+    font-weight: 400;
+
+}
+
+.banner-content span {
+    font-family: "Homemade Apple", cursive;
+    color: rgb(255, 255, 255) !important;
+    font-weight: 100 !important;
+}
+
+.button-section {
+    margin-top: 35px;
+}
+
+.sign-up {
+
+    border-radius: 40px;
+    border: 1px solid rgb(230, 83, 60);
+    background: rgb(230, 83, 60);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px 45px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.learn-more {
+
+    border-radius: 40px;
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px 45px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/* Banner End  */
