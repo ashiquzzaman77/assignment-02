@@ -487,6 +487,7 @@ td {
     border-radius: 5px;
     background: rgba(255, 255, 255, 0.1);
     color: rgba(255, 255, 255, 0.5);
+
 }
 
 .form-body select {
@@ -612,9 +613,10 @@ td {
 
 .footer-body-bottom p {
     text-align: center;
-    margin: 20PX 0;
     color: rgba(255, 255, 255, 0.5);
     font-size: 14PX;
+    padding: 20px 0;
+
 }
 
 /* Responsive  */
@@ -630,9 +632,23 @@ td {
 @media screen and (min-width:577px) and (max-width:992px) {
 
     .footer-body {
-        flex-direction: column;
-        gap: 15px;
-        padding: 40px 0;
+        display: grid;
+        grid-template-areas:
+            "footer-body-one footer-body-one footer-body-one footer-body-one"
+            "footer-body-two footer-body-two footer-body-three footer-body-three";
+        gap: 20px;
+    }
+
+    .footer-body-one {
+        grid-area: footer-body-one;
+    }
+
+    .footer-body-two {
+        grid-area: footer-body-two;
+    }
+
+    .footer-body-three {
+        grid-area: footer-body-three;
     }
 
 
