@@ -20,10 +20,11 @@ body {
     color: #fff;
 }
 
-/* Navber Section  */
-#header-section {
-    margin: 50px 250px 0 250px;
+.container-section {
+    margin: 50px 200px 0 200px;
 }
+
+/* Navber Section  */
 
 .logo {
     font-size: 19px;
@@ -45,6 +46,10 @@ body {
     padding: 15px 0px;
 }
 
+.humburger-menu {
+    display: none;
+}
+
 .navbar-menu li {
     list-style: none;
 }
@@ -63,10 +68,39 @@ body {
     margin-left: 5px;
 }
 
-/* Banner Start  */
-#banner-section {
-    margin: 50px 250px 0 250px;
+/* Responsive  */
+@media screen and (max-width:576px) {
+
+    .container-section {
+        margin: 50px 50px 0 50px;
+    }
+
+    .navbar {
+        display: flex;
+
+    }
+
+    .navbar-menu {
+        display: none;
+    }
+
+    .humburger-menu {
+        display: block;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
 }
+
+@media screen and (min-width:577px) and (max-width:992px) {
+
+    .container-section {
+        margin: 50px 60px 0 60px;
+    }
+
+}
+
+/* Banner Start  */
 
 .banner-section {
     display: flex;
@@ -119,6 +153,31 @@ body {
     padding: 10px 45px;
     font-size: 14px;
     font-weight: 700;
+}
+
+.banner-image img {
+    width: 100%;
+}
+
+/* Responsive  */
+@media screen and (max-width:576px) {
+
+    .banner-section {
+        flex-direction: column;
+    }
+
+    .banner-content h2 {
+        font-size: 60px;
+    }
+}
+
+@media screen and (min-width:577px) and (max-width:992px) {
+
+    .banner-section {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
 }
 
 /* Banner End  */
