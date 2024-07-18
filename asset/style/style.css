@@ -386,7 +386,7 @@ table {
 th {
     color: #fff;
     border: 1px solid rgba(129, 122, 122, 0.5);
-    padding: 8px 8px 8px 25px ;
+    padding: 8px 8px 8px 25px;
     text-align: left;
     font-size: 16px;
     height: 30px;
@@ -394,7 +394,7 @@ th {
 
 td {
     border: 1px solid rgba(129, 122, 122, 0.5);
-    padding: 8px 8px 8px 25px ;
+    padding: 8px 8px 8px 25px;
     text-align: left;
     color: rgba(255, 255, 255, 0.5);
     font-size: 13px;
@@ -409,7 +409,7 @@ td {
 }
 
 .form-body input[type='text'] {
-    
+
     padding: 20px;
     border: 1px solid rgba(129, 122, 122, 0.5);
     border-radius: 5px;
@@ -418,7 +418,7 @@ td {
 }
 
 .form-body select {
-    
+
     padding: 20px;
     border: 1px solid rgba(129, 122, 122, 0.5);
     border-radius: 5px;
@@ -473,3 +473,97 @@ td {
 }
 
 /* BMI section End  */
+
+/* footer section start  */
+#footer-section {
+    background: rgb(34, 34, 34);
+}
+
+.footer-body {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 80px 0;
+}
+
+
+.footer-body-one h3 {
+    font-size: 40px;
+    color: rgb(230, 83, 60);
+    font-weight: 800;
+    padding-bottom: 10px;
+    font-style: italic;
+}
+
+.footer-body-one p {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 30px;
+    max-width: 500px;
+}
+
+.footer-body-two h4 {
+    font-size: 22px;
+}
+
+.footer-body-two li {
+    list-style: none;
+    margin: 15px 0;
+}
+
+.footer-body-two li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+
+}
+
+.footer-body-three h4 {
+    font-size: 22px;
+}
+
+.footer-body-three li {
+    list-style: none;
+    margin: 15px 0;
+}
+
+.footer-body-three li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+
+}
+
+.line {
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.footer-body-bottom p {
+    text-align: center;
+    margin: 20PX 0;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14PX;
+}
+
+/* Responsive  */
+@media screen and (max-width:576px) {
+
+    .footer-body {
+        flex-direction: column;
+        gap: 15px;
+        padding: 40px 0;
+    }
+}
+
+@media screen and (min-width:577px) and (max-width:992px) {
+
+    .footer-body {
+        flex-direction: column;
+        gap: 10px;
+        padding: 40px 0;
+    }
+    
+    
+}
+
+/* footer section end  */
