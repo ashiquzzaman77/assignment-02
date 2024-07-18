@@ -340,3 +340,136 @@ body {
 }
 
 /* Burning Section End  */
+
+/* BMI Section Start  */
+.bmi-full-section {
+    background: rgb(34, 34, 34);
+}
+
+.calculate-body {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 80px;
+    flex-basis: 50%;
+    padding: 60px 0;
+}
+
+.calculate-body .calculate-body-chart {
+    flex-basis: 25%;
+}
+
+.calculate-body .calculate-body-form {
+    flex-basis: 35%;
+}
+
+.calculate-body-chart h2 {
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.calculate-body-form h2 {
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.calculate-body-form p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    color: #fff;
+    border: 1px solid rgba(129, 122, 122, 0.5);
+    padding: 8px 8px 8px 25px ;
+    text-align: left;
+    font-size: 16px;
+    height: 30px;
+}
+
+td {
+    border: 1px solid rgba(129, 122, 122, 0.5);
+    padding: 8px 8px 8px 25px ;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 13px;
+    height: 30px;
+}
+
+.form-body {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.form-body input[type='text'] {
+    
+    padding: 20px;
+    border: 1px solid rgba(129, 122, 122, 0.5);
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.form-body select {
+    
+    padding: 20px;
+    border: 1px solid rgba(129, 122, 122, 0.5);
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.form-body-two select {
+    margin-top: 20px;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid rgba(129, 122, 122, 0.5);
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 30px;
+}
+
+.bmi-button {
+    border-radius: 40px;
+    border: 1px solid rgb(230, 83, 60);
+    background: rgb(230, 83, 60);
+    color: rgb(255, 255, 255);
+    padding: 10px 40px 10px 40px;
+    text-decoration: none;
+
+}
+
+/* Responsive  */
+@media screen and (max-width:576px) {
+
+    .calculate-body {
+        flex-direction: column;
+        padding: 45px;
+    }
+
+    .calculate-body .calculate-body-form {
+        margin-top: 15px;
+    }
+}
+
+@media screen and (min-width:577px) and (max-width:992px) {
+
+    .calculate-body {
+        flex-direction: column;
+        padding: 45px;
+    }
+
+    .calculate-body .calculate-body-form {
+        margin-top: 15px;
+    }
+}
+
+/* BMI section End  */
