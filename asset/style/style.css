@@ -274,3 +274,69 @@ body {
 }
 
 /* Build Section End  */
+
+/* Burning Section Start  */
+.burning-section {
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    margin-top: 100px;
+}
+
+.burning-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+.burning-content-section h2 {
+    font-size: 30px;
+}
+
+.burning-content-section p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    max-width: 70%;
+    padding: 20px 0 30px 0;
+}
+
+.burning-image-section img {
+    width: 500px;
+    height: auto;
+    border-radius: 18px;
+}
+
+.burning-button {
+
+    border-radius: 40px;
+    border: 1px solid rgb(230, 83, 60);
+    background: rgb(230, 83, 60);
+    color: rgb(255, 255, 255);
+    padding: 10px 40px 10px 40px;
+    text-decoration: none;
+}
+
+/* Responsive  */
+@media screen and (max-width:576px) {
+
+    .burning-section {
+        flex-direction: column;
+        padding: 20px;
+        margin-top: 5px;
+    }
+
+    .burning-image-section img {
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    .burning-button {
+
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/* Burning Section End  */
